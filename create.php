@@ -1,5 +1,5 @@
 <?php
-include "config.php";
+include "https://github.com/jackbmt/ragatanga/blob/main/config.php";
 $input = file_get_contents('php://input');
 $data = json_decode($input,true);
 $message = array();
